@@ -1,0 +1,23 @@
+{
+  "name": "rap2hpoutre/create-user-command",
+  "description": "Create a user with artisan command",
+  "type": "library",
+  "require": {
+    "php": ">=5.6.4",
+    "illuminate/support": "5.*",
+    "illuminate/console": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rap2hpoutre\\CreateUser\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "rap2h",
+      "email": "raphaelht@gmail.com"
+    }
+  ]
+}
