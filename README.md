@@ -1,6 +1,5 @@
 # Laravel User Command
 
-[![Packagist](https://img.shields.io/packagist/v/rap2hpoutre/create-user-command.svg)]()
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 Create a user with artisan command.
