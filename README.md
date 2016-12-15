@@ -9,12 +9,14 @@ Install via composer
 ```
 composer require rap2hpoutre/create-user-command
 ```
-Add Service Provider to `config/app.php` in `providers` section
+Add the Create User command to `app/Console/Kernel.php` in protected `$commands` array
 ```php
-Rap2hpoutre\LaravelCreditCardValidator\ServiceProvider::class,
+\Rap2hpoutre\CreateUser\Command::class,
 ```
 
 ## Usage
+
+![demo](demo.gif)
 
 ## Why
 
