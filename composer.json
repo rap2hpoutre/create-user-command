@@ -1,6 +1,7 @@
 {
   "name": "rap2hpoutre/create-user-command",
   "description": "Create a user with artisan command",
+  "keywords": ["artisan", "laravel", "user", "create", "php"],
   "type": "library",
   "require": {
     "php": ">=5.6.4",
