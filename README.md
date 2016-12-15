@@ -18,7 +18,7 @@ Add the Create User command to `app/Console/Kernel.php` in protected `$commands`
 Define fillable attributes in your `User` class.
 
 ```
-protected $fillable = ['name', 'email', 'password', 'role'];
+protected $fillable = ['name', 'email', 'role'];
 ```
 
 Then, run `user:create` command.
