@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Rap2hpoutre\CreateUser;
 
-use \Illuminate\Console\Command;
+use \Illuminate\Console\Command as BaseCommand;
 
-class CreateUser extends Command
+class Command extends BaseCommand
 {
     /**
      * The name and signature of the console command.
