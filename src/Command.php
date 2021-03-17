@@ -56,6 +56,6 @@ class Command extends BaseCommand
             $this->info("User created (id: {$user->id})");
         }
 
-        return true;
+        return 0;
     }
 }
